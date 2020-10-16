@@ -46,7 +46,7 @@ import nl.bryanderidder.themedtogglebuttongroup.R.styleable.*
  *
  * @author Bryan de Ridder
  */
-class ThemedToggleButtonGroup : FlexboxLayout {
+open class ThemedToggleButtonGroup : FlexboxLayout {
 
     private var selectListener: ((ThemedButton) -> Unit)? = null
 
